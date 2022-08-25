@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const ContactListItem = styled.li`
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  height: 50px;
 `;
 
 export const Button = styled.button`
@@ -32,5 +34,3 @@ export const Button = styled.button`
     background-position: right center;
   }
 `;
-
-// export default ContactListItem;
